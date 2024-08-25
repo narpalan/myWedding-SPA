@@ -21,7 +21,7 @@ export default function Home() {
               </div>            
           </div>
       </Wrapper>
-      <Wrapper className='bg-violet-400'>
+      <Wrapper className='bg-violet-100'>
         <div className='flex flex-row justify-around items-center text-black'>
           <span>Não se esqueça de confirmar sua presença até a data xx/xx/xxxx</span>
           <button className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem]" type='submit'>
