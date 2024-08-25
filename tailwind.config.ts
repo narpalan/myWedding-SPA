@@ -11,7 +11,7 @@ const config: Config = {
       'mossGreen': '#9FB063',
       'white':'#ffffff',
       'violet':{
-        400: '#a78bfa',
+        100: '#F4E9FF',
       },      
     },
     extend: {
