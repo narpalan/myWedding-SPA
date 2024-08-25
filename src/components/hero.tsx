@@ -8,7 +8,7 @@ export default function Hero(): React.JSX.Element {
                 priority
                 fill
                 alt="Background image with a lit candle."
-                className="object-cover opacity-60"
+                className="object-cover"
             />                        
         </div>
     );
