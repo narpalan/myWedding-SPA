@@ -1,12 +1,14 @@
 import React from 'react';
 
 export default function Wrapper({
-    children,    
+    children,
+    className,    
 }: {
-    children: React.ReactNode
+    children: React.ReactNode,
+    className: string,
 }): React.JSX.Element {
     return (
-        <div className='col-span-4 lg:col-span-12'>
+        <div className={`col-span-4 lg:col-span-12 ${className}`}>
             {children}
         </div>
     );

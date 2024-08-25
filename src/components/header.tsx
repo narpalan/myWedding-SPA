@@ -6,9 +6,9 @@ export default function Header(): React.JSX.Element {
     const [ isOpen, setIsOpen ] = useState(false);
 
     return (
-        <div className="flex flex-row justify-around items-center col-span-4 lg:col-span-12 py-3 bg-gradient-to-r from-purple-800 to-green-700">
+        <div className="flex flex-row justify-around items-center col-span-4 lg:col-span-12 py-3 bg-white">
             <Image
-                src="/logo-white.svg"
+                src="/thaina-e-thiago.webp"
                 alt="Logo of our marriage"
                 width={146}
                 height={63}
@@ -35,7 +35,7 @@ export default function Header(): React.JSX.Element {
                 </svg>
             </button>
             */ }
-            <div className="flex flex-row space-x-8 mt-4">
+            <div className="flex flex-row space-x-8 mt-4 text-black">
                 <span>Home</span>
                 <span>O Casal</span>
                 <span>Padrinhos</span>
