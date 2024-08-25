@@ -8,7 +8,7 @@ export default function Header(): React.JSX.Element {
     return (
         <div className="flex flex-row justify-around items-center col-span-4 lg:col-span-12 py-3 bg-gradient-to-r from-purple-800 to-green-700">
             <Image
-                src="/logo-white.svg"
+                src="/thaina-e-thiago-branco.webp"
                 alt="Logo of our marriage"
                 width={146}
                 height={63}
