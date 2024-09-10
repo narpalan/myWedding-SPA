@@ -23,11 +23,16 @@ const BestsList = (): React.JSX.Element => {
         CardsMaker();
     }
     return (
-        <Carousel className="col-span-4 lg:col-span-12 my-28">
-            <CarouselContent>
-                {cards}
-            </CarouselContent>
-        </Carousel>
+        <div className='flex flex-col items-center mt-24'>
+            <div className='col-span-4 lg:col-span-12 mb-9'>
+                <span>Os padrinhos</span>                
+            </div>
+            <Carousel className="col-span-4 lg:col-span-12">
+                <CarouselContent>
+                    {cards}
+                </CarouselContent>
+            </Carousel>
+        </div>
     );
 }
 
