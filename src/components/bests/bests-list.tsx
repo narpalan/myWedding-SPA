@@ -3,15 +3,17 @@ import Card from './components/card';
 
 const cardImageList = [
     '/candle-slider-1.svg',
-    '/candle-slider-2.svg',
+    '/thiago.webp',
+    '/day.webp',
+    '/lokas.webp',    
 ];
 
 const cards: React.ReactNode[] = [];
 
 const CardsMaker = () => {
-    for (let i = 0; i < 14; i++) {
+    for (let i = 0; i < 12; i++) {
         cards.push(
-            <CarouselItem key={i} className="ml-6 basis-1/4 lg:basis-1/6 lg:pl-1">
+            <CarouselItem key={i} className="ml-2 basis-1/3 lg:basis-1/6 pl-2 lg:pl-1">
                 {<Card src={cardImageList[i] ? cardImageList[i] : '/candle-slider-1.svg'} />}
             </CarouselItem>
         );
