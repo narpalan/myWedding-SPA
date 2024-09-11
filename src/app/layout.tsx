@@ -21,8 +21,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="min-h-screen w-screen-xl">
-          <main className="max-w-screen-3xl m-auto">
+        <main className="min-h-screen">
+          <main className="m-auto">
             <div className="grid grid-cols-4 lg:grid-cols-12">
               <Header/>
               {children}  
