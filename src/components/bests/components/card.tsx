@@ -4,10 +4,10 @@ const Card = ({ src }: {src: string }): React.JSX.Element => {
     return (
     <div>
         <Image
-            className='grow rounded-xl'
+            className='rounded-full'
             src={src}
-            width={363}
-            height={363}
+            width={350}
+            height={350}
             alt="Imagem vela aromática."
             aria-label="Imagem vela aromática."
             loading="lazy"
