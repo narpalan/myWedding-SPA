@@ -2,10 +2,14 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Card from './components/card';
 
 const cardImageList = [
-    '/candle-slider-1.svg',
     '/thiago.webp',
-    '/day.webp',
-    '/lokas.webp',    
+    '/Samuel.webp',   
+    '/lokas.webp',
+    '/Pelegrine.webp',        
+    '/thais.webp',
+    '/day.webp',     
+    '/saskia.webp',
+    '/brostel.webp',        
 ];
 
 const cards: React.ReactNode[] = [];
