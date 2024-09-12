@@ -5,6 +5,7 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
 model contact_data {
@@ -22,11 +23,9 @@ model interested_person {
   created_at DateTime @default(now())
 }
 
-model RSVP {
+model rsvp {
   id          Int       @id @default(autoincrement())
   fullName    String
   mobile      String
   created_at  DateTime  @default(now())
-
-  @@map(name: "rsvp")
 }
