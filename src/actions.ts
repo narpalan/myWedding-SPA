@@ -26,7 +26,7 @@ export const setNewRSVP = async (rawData: FormData) => {
         mobile: rawData.get('mobile'),
     });
 
-    await db.rsvp.create({ data });
+    await db.RSVP.create({ data });
     redirect('?y=true');
 }
 
