@@ -38,7 +38,7 @@ export const setNewInterestedPerson = async (rawData: FormData) => {
         mobile: rawData.get('mobile'),
     });
 
-    await db.interestedPerson.create({ data });
+    await db.interested_person.create({ data });
     redirect('?y=true');
 }
 
@@ -49,6 +49,6 @@ export const setNewContact = async (rawData: FormData) => {
         email: rawData.get('email'),
     });
 
-    await db.contactData.create({ data });
+    await db.contact_data.create({ data });
     redirect('?y=true');
 }
