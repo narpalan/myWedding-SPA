@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+
+model contact_data {
+  id         Int      @id @default(autoincrement())
+  name       String
+  email      String
+  created_at DateTime @default(now())
+}
+
+model interested_person {
+  id         Int      @id @default(autoincrement())
+  name       String
+  email      String
+  mobile     String
+  created_at DateTime @default(now())
+}
+
+model rsvp {
+  id          Int       @id @default(autoincrement())
+  fullName    String
+  mobile      String
+  created_at  DateTime  @default(now())
+}

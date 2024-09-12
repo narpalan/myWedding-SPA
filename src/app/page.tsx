@@ -3,8 +3,10 @@ import Hero from '@/components/hero';
 import Wrapper from '@/components/wrapper';
 import Divider from '@/components/divider/divider';
 import Image from 'next/image';
+import CeremonyMap from '@/components/ceremony-map';
+import Form from '@/components/form/form';
 
-export default function Home() {
+export default function Home({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined } }) {
   return (
     <>      
       <Hero/>
@@ -34,6 +36,12 @@ export default function Home() {
         <BestsList/>
       </Wrapper>
       <Divider text="Cerimônia e Recepção"/>  
+      <Wrapper className=''>
+        <CeremonyMap/>
+      </Wrapper>
+      <Wrapper className=''>
+        <Form searchParams={searchParams}/>
+      </Wrapper>
       <a href='https://www.google.com/search?q=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&oq=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8'>link</a>          
     </>
   );
