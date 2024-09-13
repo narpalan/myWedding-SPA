@@ -29,7 +29,7 @@ const BestsList = (): React.JSX.Element => {
         CardsMaker();
     }
     return (
-        <div className='flex flex-col items-center mt-24'>
+        <div id='bests' className='flex flex-col items-center mt-24'>
             <div className='col-span-4 lg:col-span-12 mb-9'>
                 <span>Os padrinhos</span>                
             </div>
