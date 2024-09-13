@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { setNewRSVP } from '@/actions';
 import Msg from './components/msg';
 import CustomInput from './components/input';
+import Divider from '../divider/divider';
 
 const formFields = ['fullName', 'mobile'];
 
@@ -18,6 +19,7 @@ const Form = (): React.JSX.Element => {
     
     return (
         <>
+            <Divider text='Confirmar Presença'/>
             {submitted
                 ? <Msg />
                 : <form action={handleForm} id="rsvp" className="flex flex-col mt-[1.31rem] items-center">
