@@ -5,7 +5,7 @@ import Divider from '@/components/divider/divider';
 import Image from 'next/image';
 import CeremonyMap from '@/components/ceremony-map';
 import Form from '@/components/form/form';
-import GiftList from '@/components/gift-list/gift-list';
+//import GiftList from '@/components/gift-list/gift-list';
 
 export default function Home() {
   return (
