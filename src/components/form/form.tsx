@@ -24,7 +24,7 @@ const Form = (): React.JSX.Element => {
                     {formFields.map((field, index) => (
                         <CustomInput key={index} name={field} />
                     ))}
-                    <button className="place-self-center text-center mt-[5.12rem] rounded-3xl bg-orange-700 w-[16.31rem] h-[3.06rem]" type='submit'>
+                    <button className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem]" type='submit'>
                         <p>Cadastrar!</p>
                     </button>
                 </form>
