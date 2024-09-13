@@ -1,7 +1,7 @@
 const placeHolders: { [key: string]: string } = {
     name: 'Nome',
     email: 'Email',
-    mobile: 'Whatsapp',
+    mobile: 'Celular (xx) xxxxx-xxxx',
     fullName: 'Nome Completo (sem abreviações)',
 }
 
