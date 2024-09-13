@@ -40,6 +40,7 @@ export default function Header(): React.JSX.Element {
                 <li><a href='#couple'>O Casal</a></li>
                 <li><a href='#bests'>Padrinhos</a></li>
                 <li><a href='#location'>Local</a></li>
+                <li><a href='#gifts'>Lista de Presentes</a></li>
                 <li><a href='#rsvp'>Confirmar Presença</a></li>
             </ul>            
         </div>

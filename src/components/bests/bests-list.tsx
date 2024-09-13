@@ -6,6 +6,7 @@ const cardImageList = [
     '/Samuel.webp',   
     '/lokas.webp',
     '/luan.webp',
+    '/matheus.webp',
     '/Pelegrine.webp',        
     '/thais.webp',
     '/day.webp',         
