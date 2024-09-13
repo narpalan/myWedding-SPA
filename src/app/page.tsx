@@ -5,7 +5,7 @@ import Divider from '@/components/divider/divider';
 import Image from 'next/image';
 import CeremonyMap from '@/components/ceremony-map';
 import Form from '@/components/form/form';
-//import GiftList from '@/components/gift-list/gift-list';
+import GiftList from '@/components/gift-list/gift-list';
 
 export default function Home() {
   return (
@@ -39,12 +39,10 @@ export default function Home() {
       <Divider text="Cerimônia e Recepção"/>  
       <Wrapper className=''>
         <CeremonyMap/>
-      </Wrapper>
-      {/*}
+      </Wrapper>      
       <Wrapper className=''>
         <GiftList/>
-      </Wrapper>
-      {*/}
+      </Wrapper>      
       <Wrapper className=''>
         <Form />
       </Wrapper>
