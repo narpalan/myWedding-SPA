@@ -5,11 +5,14 @@ const cardImageList = [
     '/thiago.webp',
     '/Samuel.webp',   
     '/lokas.webp',
+    '/luan.webp',
     '/Pelegrine.webp',        
     '/thais.webp',
-    '/day.webp',     
+    '/day.webp',         
+    '/brostel.webp',    
+    '/mary.webp',
     '/saskia.webp',
-    '/brostel.webp',        
+    '/mariza.webp',        
 ];
 
 const cards: React.ReactNode[] = [];
