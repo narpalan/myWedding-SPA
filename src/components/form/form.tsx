@@ -1,19 +1,26 @@
+'use client'
+
+import { useState } from 'react';
 import { setNewRSVP } from '@/actions';
 import Msg from './components/msg';
 import CustomInput from './components/input';
 
 const formFields = ['fullName', 'mobile'];
 
-const Form = (
-    { searchParams }: { searchParams: { [key: string]: string | string[] | undefined } }
-): React.JSX.Element => {
-    const showMsg = searchParams && searchParams.y === 'true';
+const Form = (): React.JSX.Element => {
 
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleForm = async (formData: FormData) => {
+        await setNewRSVP(formData);
+        setSubmitted(true);
+    };
+    
     return (
         <>
-            {showMsg
+            {submitted
                 ? <Msg />
-                : <form action={setNewRSVP} className="flex flex-col mt-[1.31rem]">
+                : <form action={handleForm} id="rsvp" className="flex flex-col mt-[1.31rem]">
                     {formFields.map((field, index) => (
                         <CustomInput key={index} name={field} />
                     ))}
