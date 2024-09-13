@@ -12,7 +12,13 @@ const config: Config = {
       'white':'#ffffff',
       'violet':{
         100: '#F4E9FF',
-      },      
+      },   
+      'slate':{
+        100: '#F1F5F9',
+      },  
+      'zinc':{
+        400: '#A1A1AA',
+      },
     },
     extend: {
       backgroundImage: {
