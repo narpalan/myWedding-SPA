@@ -8,7 +8,7 @@ export default function Wrapper({
     className?: string,
 }): React.JSX.Element {
     return (
-        <div className={`col-span-4 lg:col-span-12 ${className}`}>
+        <div className={`col-span-4 lg:col-span-12 ${className? className : '' }`}>
             {children}
         </div>
     );
