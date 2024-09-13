@@ -36,12 +36,11 @@ export default function Header(): React.JSX.Element {
                 </button>
             </div>           
             
-            <ul className="lg:flex flex-row space-x-8 mt-4 text-black hidden">
-                <li>Home</li>
-                <li>O Casal</li>
-                <li>Padrinhos</li>
-                <li>Local</li>
-                <li>Confirmar Presença</li>
+            <ul className="lg:flex flex-row space-x-8 mt-4 text-black hidden">                
+                <li><a href='#couple'>O Casal</a></li>
+                <li><a href='#bests'>Padrinhos</a></li>
+                <li><a href='#location'>Local</a></li>
+                <li><a href='#rsvp'>Confirmar Presença</a></li>
             </ul>            
         </div>
     );
