@@ -5,13 +5,13 @@ import Divider from '@/components/divider/divider';
 import Image from 'next/image';
 import CeremonyMap from '@/components/ceremony-map';
 import Form from '@/components/form/form';
-//import GiftList from '@/components/gift-list/gift-list';
+import GiftList from '@/components/gift-list/gift-list';
 
 export default function Home() {
   return (
     <>      
       <Hero/>
-      <Wrapper className=''>
+      <Wrapper>
           <div className='flex flex-col lg:flex-row justify-around my-28 mx-5'>              
               <Image
                 src='/bg-candle-test.avif'
@@ -28,27 +28,28 @@ export default function Home() {
       <Wrapper className='bg-violet-100'>
         <div className='flex flex-row justify-around items-center text-black p-5'>
           <span>Não se esqueça de confirmar sua presença até a data xx/xx/xxxx</span>
-          <button className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem]" type='submit'>
-            <p>Cadastrar!</p>
-          </button>
+          <a href='#rsvp'>
+            <button className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem]" type='submit'>
+              <p>Cadastrar!</p>
+            </button>
+          </a>
         </div>
       </Wrapper>
-      <Wrapper className=''>
+      <Wrapper>
         <BestsList/>
       </Wrapper>
       <Divider text="Cerimônia e Recepção"/>  
-      <Wrapper className=''>
+      <Wrapper>
         <CeremonyMap/>
-      </Wrapper>
-      {/*}
-      <Wrapper className=''>
+        {/*<a href='https://www.google.com/search?q=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&oq=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8'>link</a>*/}
+      </Wrapper>      
+      <Wrapper>
         <GiftList/>
-      </Wrapper>
-      {*/}
-      <Wrapper className=''>
+      </Wrapper>      
+      <Wrapper>
         <Form />
       </Wrapper>
-      <a href='https://www.google.com/search?q=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&oq=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8'>link</a>          
+                
     </>
   );
 }
