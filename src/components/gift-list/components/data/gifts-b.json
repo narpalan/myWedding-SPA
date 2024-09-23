@@ -1,0 +1,59 @@
+{
+    "title": "ELA",
+    "items": [
+      {
+        "LINK": "https://amazon.com.br/kit-fondue-amor-quente-1",
+        "IMG_SRC": "/images/kit-fondue-amor-quente.jpg",
+        "TITLE": "Kit Fondue Amor Quente",
+        "DESCRIPTION": "Perfeito para esquentar o coração e o chocolate nos dias frios."
+      },
+      {
+        "LINK": "https://mercadolivre.com.br/ventilador-relacao-fresca-2",
+        "IMG_SRC": "/images/ventilador-relacao-fresca.jpg",
+        "TITLE": "Ventilador Relação Fresca",
+        "DESCRIPTION": "Porque manter a relação fresca é fundamental nos dias quentes!"
+      },
+      {
+        "LINK": "https://shopee.com.br/mesa-jantar-companheirismo-3",
+        "IMG_SRC": "/images/mesa-jantar-companheirismo.jpg",
+        "TITLE": "Mesa de Jantar Companheirismo",
+        "DESCRIPTION": "Onde jantares românticos e conversas profundas acontecem."
+      },
+      {
+        "LINK": "https://amazon.com.br/luminaria-lua-de-mel-4",
+        "IMG_SRC": "/images/luminaria-lua-de-mel.jpg",
+        "TITLE": "Luminária Lua de Mel",
+        "DESCRIPTION": "Ilumina o caminho para muitas luas de mel futuras."
+      },
+      {
+        "LINK": "https://mercadolivre.com.br/aspirador-portatil-amor-leve-5",
+        "IMG_SRC": "/images/aspirador-portatil-amor-leve.jpg",
+        "TITLE": "Aspirador Portátil Amor Leve",
+        "DESCRIPTION": "Leve como o amor, mas poderoso o suficiente para limpar qualquer bagunça."
+      },
+      {
+        "LINK": "https://shopee.com.br/batedeira-bolo-do-amor-6",
+        "IMG_SRC": "/images/batedeira-bolo-do-amor.jpg",
+        "TITLE": "Batedeira Bolo do Amor",
+        "DESCRIPTION": "Para misturar ingredientes e sentimentos em cada receita."
+      },
+      {
+        "LINK": "https://amazon.com.br/lavadora-relacao-limpa-7",
+        "IMG_SRC": "/images/lavadora-relacao-limpa.jpg",
+        "TITLE": "Lavadora Relação Limpa",
+        "DESCRIPTION": "Ideal para manter não só a casa, mas também a relação, sem manchas."
+      },
+      {
+        "LINK": "https://mercadolivre.com.br/conjunto-panelas-uniao-8",
+        "IMG_SRC": "/images/conjunto-panelas-uniao.jpg",
+        "TITLE": "Conjunto de Panelas União",
+        "DESCRIPTION": "Para preparar juntos todas as refeições e fortalecer a união."
+      },
+      {
+        "LINK": "https://shopee.com.br/jogo-talheres-sintonia-9",
+        "IMG_SRC": "/images/jogo-talheres-sintonia.jpg",
+        "TITLE": "Jogo de Talheres Sintonia",
+        "DESCRIPTION": "Onde cada garfo e faca trabalham em perfeita harmonia."
+      }
+    ]
+  }
