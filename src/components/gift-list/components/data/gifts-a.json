@@ -3,55 +3,55 @@
     "items": [
       {
         "LINK": "https://amazon.com.br/toaster-pro-max-1",
-        "IMG_SRC": "/images/toaster-pro-max.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-1_bihedi.webp",
         "TITLE": "Torradeira Pro Max Casamento Edition",
         "DESCRIPTION": "A torradeira que não só faz torradas, mas também esquenta o coração dos recém-casados."
       },
       {
         "LINK": "https://mercadolivre.com.br/robot-vacuum-love-2",
-        "IMG_SRC": "/images/robot-vacuum-love.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-2_n09oew.webp",
         "TITLE": "Robô Aspirador Love Clean 3000",
         "DESCRIPTION": "Porque o verdadeiro amor é quando ninguém precisa varrer a casa."
       },
       {
         "LINK": "https://shopee.com.br/kit-grill-duplo-3",
-        "IMG_SRC": "/images/kit-grill-duplo.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-3_maa9hx.webp",
         "TITLE": "Grill Duplo Romântico",
         "DESCRIPTION": "Ideal para aquele churrasco a dois, sem brigar pelo último pedaço."
       },
       {
         "LINK": "https://amazon.com.br/microondas-speed-4",
-        "IMG_SRC": "/images/microondas-speed.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-4_aqhmy1.webp",
         "TITLE": "Micro-ondas Turbo Relacionamento",
         "DESCRIPTION": "Para esquentar o jantar e não as discussões!"
       },
       {
         "LINK": "https://mercadolivre.com.br/cafeteira-amor-forte-5",
-        "IMG_SRC": "/images/cafeteira-amor-forte.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-5_kshssw.webp",
         "TITLE": "Cafeteira Amor Forte",
         "DESCRIPTION": "Para começar o dia com aquele café que mantém o amor forte!"
       },
       {
         "LINK": "https://shopee.com.br/airfryer-dois-coracoes-6",
-        "IMG_SRC": "/images/airfryer-dois-coracoes.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-6_pgorot.webp",
         "TITLE": "Air Fryer Dois Corações",
         "DESCRIPTION": "Perfeita para preparar lanches saudáveis e fritar brigas antes que comecem."
       },
       {
         "LINK": "https://amazon.com.br/sofa-maratonar-juntos-7",
-        "IMG_SRC": "/images/sofa-maratonar-juntos.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-7_ir4xfp.webp",
         "TITLE": "Sofá Maratonar Juntos",
         "DESCRIPTION": "O sofá feito para maratonar séries e construir memórias (e cochilos)."
       },
       {
         "LINK": "https://mercadolivre.com.br/panela-pressao-compromisso-8",
-        "IMG_SRC": "/images/panela-pressao-compromisso.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-8_j04hlo.webp",
         "TITLE": "Panela de Pressão Compromisso",
         "DESCRIPTION": "Ideal para cozinhar refeições rápidas e segurar as pressões do casamento."
       },
       {
         "LINK": "https://shopee.com.br/jogo-cama-eterna-conexao-9",
-        "IMG_SRC": "/images/jogo-cama-eterna-conexao.jpg",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1727472828/pix-9_eftvs6.webp",
         "TITLE": "Jogo de Cama Conexão Eterna",
         "DESCRIPTION": "Porque noites confortáveis são o segredo de uma conexão duradoura."
       }

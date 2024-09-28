@@ -34,7 +34,7 @@ export default function List({ className, section, id }: { className?: string, s
             {gifts.map((gift, index) => (
                 <GiftCard
                     key={index}
-                    src="/candle-slider-1.svg"
+                    src={gift.IMG_SRC}
                     title={gift.TITLE}
                     description={gift.DESCRIPTION}
                     link={gift.LINK}
