@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='scrollbar'>
       <body className={inter.className}>
         <main className="min-h-screen">
           <main className="m-auto">
