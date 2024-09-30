@@ -12,6 +12,7 @@ const config: Config = {
       'white':'#ffffff',
       'violet':{
         100: '#F4E9FF',
+        200: '#DDD6FE',
       },   
       'slate':{
         100: '#F1F5F9',
