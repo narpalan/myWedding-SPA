@@ -33,11 +33,8 @@ const BestsList = (): React.JSX.Element => {
         CardsMaker();
     }
     return (
-        <div id='bests' className='flex flex-col items-center mt-24'>
-            <div className='col-span-4 lg:col-span-12 mb-9'>
-                <span>Os padrinhos</span>                
-            </div>
-            <Carousel className="col-span-4 lg:col-span-12">
+        <div className='flex flex-col items-center my-14 lg:my-28'>            
+            <Carousel>
                 <CarouselContent>
                     {cards}
                 </CarouselContent>

@@ -3,49 +3,57 @@ import Hero from '@/components/hero';
 import Wrapper from '@/components/wrapper';
 import Divider from '@/components/divider/divider';
 import Image from 'next/image';
-import CeremonyMap from '@/components/ceremony-map';
+import CeremonyMap from '@/components/ceremony-map/ceremony-map';
 import Form from '@/components/form/form';
 import GiftList from '@/components/gift-list/gift-list';
 
 export default function Home() {
   return (
     <>      
-      <Hero/>
+      <Hero/>      
+      <Divider id='couple' text="O Casal"/>  
       <Wrapper>
-          <div className='flex flex-col lg:flex-row justify-around my-28 mx-5'>              
+          <div className='flex flex-col h-[90rem] gap-y-16 lg:flex-row lg:justify-around my-5 mx-5 lg:mx-28 lg:h-[36rem]'>              
               <Image
                 src='/bg-candle-test.avif'
-                width={550}
-                height={910}
+                width={470}
+                height={20}
                 alt='Our photo wearing white robes!'                
               />
-              <div id='couple' className='flex flex-col lg:w-[877px] lg:h-[810px] sm:wrap '>
-                <h1>O Casal</h1>
-                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+              <div className='flex flex-col lg:w-[650px] lg:h-[200vh]'>               
+                <span className='text-justify'>
+                  <p className='indent-8'>Nos conhecemos no dia 18 de Abril de 2020 pela internet, como os jovens fazem hoje em dia e desde o primeiro segundo foi realmente um SUPER MATCH! Conversamos por horas a fio e cada descoberta sobre o outro apenas aumentava a sensação de que nos conhecíamos há muitas e muitas vidas! </p>
+	                <p className='indent-8'>Nos dias que se seguiram, continuamos a nos conhecer mais e mais! Passamos incontáveis horas proseando em chamadas (pela internet :D) e jogando juntos, até que no dia 28 de Abril nos encontramos pessoalmente pela primeira vez! Ela queria comprar um chá de hibisco no Carrefour, e muito esperto que sou, me ofereci para levá-la até o supermercado para que ela pudesse tomar seu chazinho. Ai vocês sabem o que aconteceu né…? Isso mesmo! Depois que nos encontramos fomos tomar um chá de cevadis juntinhos e acabamos nos esquecendo completamente do supermercado!</p> 
+                  <p className='indent-8'>Nos conhecemos no dia 18 de Abril de 2020 pela internet, como os jovens fazem hoje em dia e desde o primeiro segundo foi realmente um SUPER MATCH! Conversamos por horas a fio e cada descoberta sobre o outro apenas aumentava a sensação de que nos conhecíamos há muitas e muitas vidas! </p>
+	              <p className='indent-8'>Nos dias que se seguiram, continuamos a nos conhecer mais e mais! Passamos incontáveis horas proseando em chamadas (pela internet :D) e jogando juntos, até que no dia 28 de Abril nos encontramos pessoalmente pela primeira vez! Ela queria comprar um chá de hibisco no Carrefour, e muito esperto que sou, me ofereci para levá-la até o supermercado para que ela pudesse tomar seu chazinho. Ai vocês sabem o que aconteceu né…? Isso mesmo! Depois que nos encontramos fomos tomar um chá de cevadis juntinhos e acabamos nos esquecendo completamente do supermercado!</p>
+                </span>
               </div>            
           </div>
       </Wrapper>
-      <Wrapper className='bg-violet-100'>
-        <div className='flex flex-row justify-around items-center text-black p-5'>
-          <span>Não se esqueça de confirmar sua presença até a data xx/xx/xxxx</span>
+      <Wrapper className='bg-violet-200 mt-56 lg:mt-5'>
+        <div className='flex flex-col gap-y-5 lg:flex-row lg:justify-around items-center text-black p-5'>
+          <span>Confirme sua presença até 30/11/2024</span>
           <a href='#rsvp'>
-            <button className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem]" type='submit'>
-              <p>Cadastrar!</p>
+            <button className="text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[2.06rem] lg:w-[16.31rem] lg:h-[2.75rem]" type='submit'>
+              <p>Confirmar Presença</p>
             </button>
           </a>
         </div>
       </Wrapper>
-      <Wrapper>
+      <Divider id='bests' text='Os Padrinhos'/>
+      <Wrapper>        
         <BestsList/>
       </Wrapper>
-      <Divider text="Cerimônia e Recepção"/>  
+      <Divider id='location' text="Cerimônia e Recepção"/>  
       <Wrapper>
         <CeremonyMap/>
         {/*<a href='https://www.google.com/search?q=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&oq=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8'>link</a>*/}
-      </Wrapper>      
+      </Wrapper>
+      <Divider id='gifts' text='Lista de Presentes'/>      
       <Wrapper>
         <GiftList/>
-      </Wrapper>      
+      </Wrapper>
+      <Divider id="rsvp" text='Confirmar Presença'/>      
       <Wrapper>
         <Form />
       </Wrapper>
