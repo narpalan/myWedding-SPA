@@ -2,7 +2,6 @@
 
 import { z } from "zod"
 import { db } from "./modules/db";
-import { redirect } from "next/navigation";
 
 const NewRSVPSchema = z.object({
     fullName: z.string(),
@@ -14,6 +13,10 @@ export const setNewRSVP = async (rawData: FormData) => {
         fullName: rawData.get('fullName'),
         mobile: rawData.get('mobile'),
     });
+
+    if(data.fullName === '' || data.mobile === '') {
+        throw new Error('em branco');        
+    }
 
     await db.rsvp.create({ data });    
 }
