@@ -35,7 +35,7 @@ export default function Home() {
           <span>Confirme sua presença até 30/11/2024</span>
           <a href='#rsvp'>
             <button className="text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[2.06rem] lg:w-[16.31rem] lg:h-[2.75rem]" type='submit'>
-              <p>Cadastrar!</p>
+              <p>Confirmar Presença</p>
             </button>
           </a>
         </div>
@@ -48,10 +48,12 @@ export default function Home() {
       <Wrapper>
         <CeremonyMap/>
         {/*<a href='https://www.google.com/search?q=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&oq=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8'>link</a>*/}
-      </Wrapper>      
+      </Wrapper>
+      <Divider id='gifts' text='Lista de Presentes'/>      
       <Wrapper>
         <GiftList/>
-      </Wrapper>      
+      </Wrapper>
+      <Divider id="rsvp" text='Confirmar Presença'/>      
       <Wrapper>
         <Form />
       </Wrapper>
