@@ -13,7 +13,7 @@ export default function Home() {
       <Hero/>
       <Divider id='couple' text="O Casal"/>  
       <Wrapper>
-          <div className='flex flex-col h-[85rem] gap-y-16 lg:flex-row lg:justify-around my-5 mx-5 lg:mx-28 lg:h-[71.5vh]'>              
+          <div className='flex flex-col h-[90rem] gap-y-16 lg:flex-row lg:justify-around my-5 mx-5 lg:mx-28 lg:h-[36rem]'>              
               <Image
                 src='/bg-candle-test.avif'
                 width={470}
@@ -22,22 +22,11 @@ export default function Home() {
               />
               <div className='flex flex-col lg:w-[650px] lg:h-[200vh]'>               
                 <span className='text-justify'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys 
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
-                    make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
-                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-                    PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer 
-                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
-                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-                    in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy 
-                    text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since 
-                    the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-                    recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                   </span>
+                  <p className='indent-8'>Nos conhecemos no dia 18 de Abril de 2020 pela internet, como os jovens fazem hoje em dia e desde o primeiro segundo foi realmente um SUPER MATCH! Conversamos por horas a fio e cada descoberta sobre o outro apenas aumentava a sensação de que nos conhecíamos há muitas e muitas vidas! </p>
+	                <p className='indent-8'>Nos dias que se seguiram, continuamos a nos conhecer mais e mais! Passamos incontáveis horas proseando em chamadas (pela internet :D) e jogando juntos, até que no dia 28 de Abril nos encontramos pessoalmente pela primeira vez! Ela queria comprar um chá de hibisco no Carrefour, e muito esperto que sou, me ofereci para levá-la até o supermercado para que ela pudesse tomar seu chazinho. Ai vocês sabem o que aconteceu né…? Isso mesmo! Depois que nos encontramos fomos tomar um chá de cevadis juntinhos e acabamos nos esquecendo completamente do supermercado!</p> 
+                  <p className='indent-8'>Nos conhecemos no dia 18 de Abril de 2020 pela internet, como os jovens fazem hoje em dia e desde o primeiro segundo foi realmente um SUPER MATCH! Conversamos por horas a fio e cada descoberta sobre o outro apenas aumentava a sensação de que nos conhecíamos há muitas e muitas vidas! </p>
+	              <p className='indent-8'>Nos dias que se seguiram, continuamos a nos conhecer mais e mais! Passamos incontáveis horas proseando em chamadas (pela internet :D) e jogando juntos, até que no dia 28 de Abril nos encontramos pessoalmente pela primeira vez! Ela queria comprar um chá de hibisco no Carrefour, e muito esperto que sou, me ofereci para levá-la até o supermercado para que ela pudesse tomar seu chazinho. Ai vocês sabem o que aconteceu né…? Isso mesmo! Depois que nos encontramos fomos tomar um chá de cevadis juntinhos e acabamos nos esquecendo completamente do supermercado!</p>
+                </span>
               </div>            
           </div>
       </Wrapper>
@@ -51,10 +40,11 @@ export default function Home() {
           </a>
         </div>
       </Wrapper>
-      <Wrapper>
+      <Divider id='bests' text='Os Padrinhos'/>
+      <Wrapper>        
         <BestsList/>
       </Wrapper>
-      <Divider text="Cerimônia e Recepção"/>  
+      <Divider id='location' text="Cerimônia e Recepção"/>  
       <Wrapper>
         <CeremonyMap/>
         {/*<a href='https://www.google.com/search?q=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&oq=6V5F%2BQH+Belvedere%2C+Ribeir%C3%A3o+das+Neves+-+MG&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8'>link</a>*/}
