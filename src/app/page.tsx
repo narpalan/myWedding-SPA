@@ -3,14 +3,14 @@ import Hero from '@/components/hero';
 import Wrapper from '@/components/wrapper';
 import Divider from '@/components/divider/divider';
 import Image from 'next/image';
-import CeremonyMap from '@/components/ceremony-map';
+import CeremonyMap from '@/components/ceremony-map/ceremony-map';
 import Form from '@/components/form/form';
 import GiftList from '@/components/gift-list/gift-list';
 
 export default function Home() {
   return (
     <>      
-      <Hero/>
+      <Hero/>      
       <Divider id='couple' text="O Casal"/>  
       <Wrapper>
           <div className='flex flex-col h-[90rem] gap-y-16 lg:flex-row lg:justify-around my-5 mx-5 lg:mx-28 lg:h-[36rem]'>              
