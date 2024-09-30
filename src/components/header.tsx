@@ -47,16 +47,28 @@ export default function Header(): React.JSX.Element {
                 <li><a href='#bests' className="py-2">Padrinhos</a></li>
                 <li><a href='#location' className="py-2">Local</a></li>
                 <li><a href='#gifts' className="py-2">Lista de Presentes</a></li>
-                <li><a href='#rsvp' className="py-2">Confirmar Presença</a></li>
+                <li>
+                    <a href='#rsvp' className="py-2">
+                        <button className="text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[3.06rem] lg:w-[16.31rem] lg:h-[2.75rem]" type='submit'>              
+                            Confirmar Presença
+                        </button>
+                    </a>
+                </li>
             </ul>
 
             {/* Desktop Menu */}
-            <ul className="hidden lg:flex flex-row space-x-10 mt-4 text-black">
+            <ul className="hidden lg:flex flex-row items-center space-x-10 mt-4 text-black">
                 <li><a href='#couple'>O Casal</a></li>
                 <li><a href='#bests'>Padrinhos</a></li>
                 <li><a href='#location'>Local</a></li>
                 <li><a href='#gifts'>Lista de Presentes</a></li>
-                <li><a href='#rsvp'>Confirmar Presença</a></li>
+                <li>
+                    <a href='#rsvp' className="py-2">
+                        <button className="text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[2.06rem] lg:w-[14.31rem] lg:h-[2.75rem]" type='submit'>              
+                            Confirmar Presença
+                        </button>
+                    </a>
+                </li>
             </ul>
         </div>
     );
