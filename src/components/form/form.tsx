@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { setNewRSVP } from '@/actions';
 import Msg from './components/msg';
 import CustomInput from './components/input';
-import Divider from '../divider/divider';
 
 const formFields = ['fullName', 'mobile'];
 
@@ -18,8 +17,7 @@ const Form = (): React.JSX.Element => {
     };
     
     return (
-        <>
-            
+        <>            
             {submitted
                 ? <Msg />
                 : <form action={handleForm} className="flex flex-col mt-[1.31rem] items-center">
