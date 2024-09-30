@@ -11,9 +11,8 @@ export default function GiftList(): React.JSX.Element {
     const [headerTitle, setHeaderTitle] = useState('');
 
     return(
-        <>        
-            <Divider id='gifts' text='Lista de Presentes'/>
-            <div className='flex flex-col gap-y-4 lg:flex-row lg:mx-28 lg:justify-between mb-8'>
+        <>
+            <div className='flex flex-col gap-y-4 lg:flex-row lg:mx-28 lg:justify-between lg:my-16'>
                 <div className='w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[450px]'>
                     <a 
                         href='#gifts-header-title'
