@@ -13,14 +13,14 @@ export default function Home() {
       <Hero/>      
       <Divider id='couple' text="O Casal"/>  
       <Wrapper>
-          <div className='flex flex-col h-[90rem] gap-y-16 lg:flex-row lg:justify-around my-5 mx-5 lg:mx-28 lg:h-[36rem]'>              
+          <div className='flex flex-col h-[160vh] gap-y-20 lg:gap-x-30 lg:flex-row md:max-lg:items-center lg:justify-around my-5 mx-5 py-5 lg:my-16 lg:mx-20 lg:h-[95vh]'>              
               <Image
                 src='/bg-candle-test.avif'
                 width={470}
                 height={20}
                 alt='Our photo wearing white robes!'                
               />
-              <div className='flex flex-col lg:w-[650px] lg:h-[200vh]'>               
+              <div className='flex flex-col md:w-[35rem] lg:w-[41rem] lg:h-[80vh]'>               
                 <span className='text-justify'>
                   <p className='indent-8'>Nos conhecemos no dia 18 de Abril de 2020 pela internet, como os jovens fazem hoje em dia e desde o primeiro segundo foi realmente um SUPER MATCH! Conversamos por horas a fio e cada descoberta sobre o outro apenas aumentava a sensação de que nos conhecíamos há muitas e muitas vidas! </p>
 	                <p className='indent-8'>Nos dias que se seguiram, continuamos a nos conhecer mais e mais! Passamos incontáveis horas proseando em chamadas (pela internet :D) e jogando juntos, até que no dia 28 de Abril nos encontramos pessoalmente pela primeira vez! Ela queria comprar um chá de hibisco no Carrefour, e muito esperto que sou, me ofereci para levá-la até o supermercado para que ela pudesse tomar seu chazinho. Ai vocês sabem o que aconteceu né…? Isso mesmo! Depois que nos encontramos fomos tomar um chá de cevadis juntinhos e acabamos nos esquecendo completamente do supermercado!</p> 
@@ -30,7 +30,7 @@ export default function Home() {
               </div>            
           </div>
       </Wrapper>
-      <Wrapper className='bg-violet-200 mt-56 lg:mt-5'>
+      <Wrapper className='bg-violet-200 mt-[45rem] lg:mt-36'>
         <div className='flex flex-col gap-y-5 lg:flex-row lg:justify-around items-center text-black p-5'>
           <span>Confirme sua presença até 30/11/2024</span>
           <a href='#rsvp'>

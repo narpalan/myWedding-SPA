@@ -10,15 +10,23 @@ const formFields = ['fullName', 'mobile'];
 const Form = (): React.JSX.Element => {
 
     const [submitted, setSubmitted] = useState(false);
+    const [formError, setFormError] = useState(false);
 
     const handleForm = async (formData: FormData) => {
-        await setNewRSVP(formData);
+        setFormError(false);
+        try {
+            await setNewRSVP(formData);
+        } catch (er) {
+            setFormError(true); 
+            return;           
+        }       
+        
         setSubmitted(true);
     };
     
     return (
         <>            
-            {submitted
+            {submitted && !formError
                 ? <Msg />
                 : <form action={handleForm} className="flex flex-col mt-[1.31rem] items-center">
                     <div className='flex flex-col lg:flex-row lg:gap-x-20 '>

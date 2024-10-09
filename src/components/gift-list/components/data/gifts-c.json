@@ -3,57 +3,57 @@
     "items": [
       {
         "LINK": "https://amazon.com.br/refrigerador-frescor-amor-1",
-        "IMG_SRC": "/images/refrigerador-frescor-amor.jpg",
-        "TITLE": "Refrigerador Frescor do Amor",
-        "DESCRIPTION": "Para manter os alimentos e o casamento sempre frescos."
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444528/aviaozinho_xhywmb.webp",
+        "TITLE": "Aviãozinho de Dinheiro do Silvio Santos",
+        "DESCRIPTION": "Para aqueles momentos em que precisamos de um empurrãozinho a mais para realizar nossos sonhos!"
       },
       {
         "LINK": "https://mercadolivre.com.br/liquidificador-amor-suave-2",
-        "IMG_SRC": "/images/liquidificador-amor-suave.jpg",
-        "TITLE": "Liquidificador Amor Suave",
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444529/cafe-da-manha_jlkd4b.webp",
+        "TITLE": "Cafe da manha 5 estrelas",
         "DESCRIPTION": "Mistura perfeita de frutas e afeto."
       },
       {
         "LINK": "https://shopee.com.br/ferro-passar-problemas-3",
-        "IMG_SRC": "/images/ferro-passar-problemas.jpg",
-        "TITLE": "Ferro de Passar Problemas",
-        "DESCRIPTION": "Porque no casamento, a gente passa por cima de tudo – até das roupas!"
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444530/cats_jex7qq.webp",
+        "TITLE": "Lindos boletinhos atrasados - SRD",
+        "DESCRIPTION": "Adote um boletinho atrasado! Varias cores e valores! Você não vai se arrepender!"
       },
       {
         "LINK": "https://amazon.com.br/jogo-facas-discussao-4",
-        "IMG_SRC": "/images/jogo-facas-discussao.jpg",
-        "TITLE": "Jogo de Facas Discussão Pacífica",
-        "DESCRIPTION": "Para cortar vegetais, não discussões!"
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444531/DOM-DE-ANJO_ie4yq1.webp",
+        "TITLE": "Dom de Anjo",
+        "DESCRIPTION": "Um presente celestial, trazendo proteção e união para o casal em todas as batalhas!"
       },
       {
         "LINK": "https://mercadolivre.com.br/tv-cinema-a-dois-5",
-        "IMG_SRC": "/images/tv-cinema-a-dois.jpg",
-        "TITLE": "TV Cinema a Dois",
-        "DESCRIPTION": "Para maratonar filmes e séries juntos, em alta definição e amor."
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444531/cofre-tio-patihnas_by7g9z.webp",
+        "TITLE": "Caixa Forte do Casal",
+        "DESCRIPTION": "Assim como a do Tio Patinhas, para guardarmos com carinho nossas economias e aventuras a dois!"
       },
       {
         "LINK": "https://shopee.com.br/maquina-pao-amor-perfeito-6",
-        "IMG_SRC": "/images/maquina-pao-amor-perfeito.jpg",
-        "TITLE": "Máquina de Pão Amor Perfeito",
-        "DESCRIPTION": "A única máquina que faz pão e espalha amor pela casa."
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444528/aposente-os-noivos_pmto20.webp",
+        "TITLE": "Aposente os Noivos",
+        "DESCRIPTION": ""
       },
       {
         "LINK": "https://amazon.com.br/pipoqueira-noites-inesqueciveis-7",
-        "IMG_SRC": "/images/pipoqueira-noites-inesqueciveis.jpg",
-        "TITLE": "Pipoqueira Noites Inesquecíveis",
-        "DESCRIPTION": "Perfeita para noites de filmes e muitas risadas."
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444529/casco-azul_zui5js.webp",
+        "TITLE": "Casco Azul - Mario Kart",
+        "DESCRIPTION": "Para nos ajudar a superar qualquer obstáculo e alcançar juntos a linha de chegada!"
       },
       {
         "LINK": "https://mercadolivre.com.br/abajur-romance-8",
-        "IMG_SRC": "/images/abajur-romance.jpg",
-        "TITLE": "Abajur Romance Infinito",
-        "DESCRIPTION": "Ilumina os momentos de carinho e cumplicidade."
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444532/maromba_dcunlq.webp",
+        "TITLE": "Creatina para o Projeto Maromba",
+        "DESCRIPTION": "Para ganharmos músculos juntos e fazermos os treinos tão divertidos quanto nossos projetos, porque ser forte também é ter fôlego para as melhores aventuras!"
       },
       {
         "LINK": "https://shopee.com.br/maquina-cafe-alma-gemea-9",
-        "IMG_SRC": "/images/maquina-cafe-alma-gemea.jpg",
-        "TITLE": "Máquina de Café Alma Gêmea",
-        "DESCRIPTION": "Porque um bom café aquece o corpo e o coração."
+        "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444534/netflix_pcxgwu.webp",
+        "TITLE": "1 Ano de Netflix pro Casal",
+        "DESCRIPTION": "Para maratonar séries e filmes juntos, e fazer do sofá nosso melhor lugar para nossos encontros!"
       }
     ]
   }
