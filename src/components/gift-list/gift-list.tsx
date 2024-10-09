@@ -48,7 +48,7 @@ export default function GiftList(): React.JSX.Element {
                     />
                     </a>
                 </div>
-                <List id='SM-B' className={`${isOpenB ? 'block': 'hidden'} lg:hidden`} section='B'/>
+                <List id='SM-B' className={`${isOpenB ? 'block': 'hidden'} lg:hidden mt-16`} section='B'/>
                 <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[450px] ${isOpenC? 'border-4 border-purple-800': ''}`}>
                 <a 
                     href='#gifts-header-title'
@@ -69,9 +69,9 @@ export default function GiftList(): React.JSX.Element {
                 <List id='SM-C' className={`${isOpenC ? 'block': 'hidden'} lg:hidden`} section='C'/>                
             </div>
             
-            {/*(isOpenA || isOpenB || isOpenC) && (
-                <Divider id='gifts-header-title' text={headerTitle} />
-            )*/}
+            {(isOpenA || isOpenB || isOpenC) && (
+                <Divider hideMe='hidden lg:flex' id='gifts-header-title' text={headerTitle} />
+            )}
 
             <List id='LG-A' className={`${isOpenA ? 'hidden lg:grid lg:grid-cols-3': 'hidden'}`} section='A'/>
                 
