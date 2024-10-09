@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const Divider = ({ text, id }: { text?: string, id?: string }): React.JSX.Element => {
+const Divider = ({ text, id, hideMe }: { text?: string, id?: string, hideMe?: string }): React.JSX.Element => {
     return (
-        <div id={id? id: 'location'} className="flex flex-row h-56 col-span-4 lg:col-span-12 items-center justify-between overflow-clip">
+        <div id={id? id: 'location'} className={`flex flex-row h-40 lg:h-44 col-span-4 lg:col-span-12 items-center justify-between overflow-clip ${hideMe? hideMe : null}`}>
             <Image
                 src="/leaf-and-twig.webp"
                 alt="draw of a leaf and twig for the divider section"
@@ -11,9 +11,9 @@ const Divider = ({ text, id }: { text?: string, id?: string }): React.JSX.Elemen
                 className='skew-y-12 lg:w-[150px] lg:h-[250px]'
             />
             <div>
-                <span>
+                <p className='text-md lg:text-3xl'>
                     {text ? text : "Olá!"}
-                </span>
+                </p>
             </div>            
             <Image
                 src="/leaf-and-twig.webp"

@@ -1,19 +1,19 @@
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../ui/carousel';
+import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel';
 import Card from './components/card';
 
 const cardImageList = [
-    '/thiago.webp',
-    '/Samuel.webp',   
-    '/lokas.webp',
-    '/luan.webp',
-    '/matheus.webp',
-    '/Pelegrine.webp',        
-    '/thais.webp',
-    '/day.webp',         
-    '/brostel.webp',    
-    '/mary.webp',
-    '/saskia.webp',
-    '/mariza.webp',        
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474768/thiago_fs7ard.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474768/Samuel_hxs0hz.webp',   
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474767/lokas_wvo1nf.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474767/luan_vp2wib.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474768/matheus_yezbhn.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474768/Pelegrine_vwqx8u.webp',        
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474768/thais_ildcvp.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474767/day_dcvj0d.webp',         
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474767/brostel_alnlkp.webp',    
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474767/mary_v51fe8.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474768/saskia_oo7k34.webp',
+    'https://res.cloudinary.com/dnww83mmv/image/upload/v1727474767/mariza_ai1dsg.webp',        
 ];
 
 const cards: React.ReactNode[] = [];
@@ -33,11 +33,8 @@ const BestsList = (): React.JSX.Element => {
         CardsMaker();
     }
     return (
-        <div id='bests' className='flex flex-col items-center mt-24'>
-            <div className='col-span-4 lg:col-span-12 mb-9'>
-                <span>Os padrinhos</span>                
-            </div>
-            <Carousel className="col-span-4 lg:col-span-12">
+        <div className='flex flex-col items-center my-14 lg:my-28'>            
+            <Carousel>
                 <CarouselContent>
                     {cards}
                 </CarouselContent>

@@ -4,25 +4,31 @@ import { useState } from 'react';
 import { setNewRSVP } from '@/actions';
 import Msg from './components/msg';
 import CustomInput from './components/input';
-import Divider from '../divider/divider';
 
 const formFields = ['fullName', 'mobile'];
 
 const Form = (): React.JSX.Element => {
 
     const [submitted, setSubmitted] = useState(false);
+    const [formError, setFormError] = useState(false);
 
     const handleForm = async (formData: FormData) => {
-        await setNewRSVP(formData);
+        setFormError(false);
+        try {
+            await setNewRSVP(formData);
+        } catch (er) {
+            setFormError(true); 
+            return;           
+        }       
+        
         setSubmitted(true);
     };
     
     return (
-        <>
-            <Divider text='Confirmar Presença'/>
-            {submitted
+        <>            
+            {submitted && !formError
                 ? <Msg />
-                : <form action={handleForm} id="rsvp" className="flex flex-col mt-[1.31rem] items-center">
+                : <form action={handleForm} className="flex flex-col mt-[1.31rem] items-center">
                     <div className='flex flex-col lg:flex-row lg:gap-x-20 '>
                         {formFields.map((field, index) => (                            
                             <CustomInput key={index} name={field} />                            

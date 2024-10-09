@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Thaina e Thiago",
-  description: "Our wedding website",
+  description: "Site do nosso casamento onde os convidados podem confirmar a presença e saber mais detalhes.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='scrollbar'>
       <body className={inter.className}>
         <main className="min-h-screen">
           <main className="m-auto">
