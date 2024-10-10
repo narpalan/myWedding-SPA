@@ -30,6 +30,9 @@ export default function GiftList(): React.JSX.Element {
                     /> 
                     </a>                       
                 </div>
+                {(isOpenA && (
+                    <Divider hideMe='lg:hidden flex' id='gifts-header-title' text={headerTitle} />
+                ))} 
                 <List id='SM-A' className={`${isOpenA ? 'block': 'hidden'} lg:hidden`} section='A'/>                            
                 <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[450px] ${isOpenB? 'border-4 border-purple-800': ''}`}>
                 <a 
@@ -48,6 +51,9 @@ export default function GiftList(): React.JSX.Element {
                     />
                     </a>
                 </div>
+                {(isOpenB && (
+                    <Divider hideMe='lg:hidden flex' id='gifts-header-title' text={headerTitle} />
+                ))} 
                 <List id='SM-B' className={`${isOpenB ? 'block': 'hidden'} lg:hidden mt-16`} section='B'/>
                 <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[450px] ${isOpenC? 'border-4 border-purple-800': ''}`}>
                 <a 
@@ -66,7 +72,12 @@ export default function GiftList(): React.JSX.Element {
                     />  
                     </a>          
                 </div> 
-                <List id='SM-C' className={`${isOpenC ? 'block': 'hidden'} lg:hidden`} section='C'/>                
+                {(isOpenC && (
+                    <Divider hideMe='lg:hidden flex' id='gifts-header-title' text={headerTitle} />
+                ))}                
+                <List id='SM-C' className={`${isOpenC ? 'block': 'hidden'} lg:hidden`} section='C'/>
+                
+                                
             </div>
             
             {(isOpenA || isOpenB || isOpenC) && (
