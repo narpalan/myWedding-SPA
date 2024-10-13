@@ -1,24 +1,9 @@
 'use client';
-import { useState } from 'react';
 import Image from 'next/image';
+import { useCopyToClipboard } from '@/hooks/useCopyToCliboard';
 
-
+const chavePix = '09f42afe-e5df-45de-8d95-7e908b2e9e70';
 const amazonListLink = 'https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share';
-
-const useCopyToClipboard = () => {
-    const [isCopied, setIsCopied] = useState(false);
-
-    const copyToClipboard = async (content: string) => {
-        try {
-          await navigator.clipboard.writeText(content);
-          setIsCopied(true);  
-        } catch (er: any) {
-            setIsCopied(false);            
-        }
-    };
-
-    return { isCopied, copyToClipboard };
-};
 
 export default function GiftCard ({ 
     src, 
@@ -52,7 +37,7 @@ export default function GiftCard ({
             <span className='text-sm text-justify'>Valor sugerido: R$ {price}</span>
         </div>        
         </a>
-        <button onClick={()=>copyToClipboard('09f42afe-e5df-45de-8d95-7e908b2e9e70')} className='text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[2.06rem] lg:w-[14.31rem] lg:h-[2.75rem]'>
+        <button onClick={ () => copyToClipboard(chavePix) } className='text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[2.06rem] lg:w-[14.31rem] lg:h-[2.75rem]'>
             {isCopied? 'Chave pix copiada!' : 'Copiar chave pix'}
         </button>                          
     </div>    
