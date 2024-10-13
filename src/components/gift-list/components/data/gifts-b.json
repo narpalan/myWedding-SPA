@@ -1,59 +1,59 @@
 {
     "title": "ELA",
     "items": [
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444533/maz-06_vkmbag.webp",
         "TITLE": "Queijeira em Bambu",
-        "DESCRIPTION": "Perfeito para esquentar o coração e o chocolate nos dias frios."
+        "DESCRIPTION": "Perfeito para esquentar o coração e o chocolate nos dias frios.",
+        "PRICE": "43,79"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444553/amz-09_lgqfe5.webp",
         "TITLE": "Pilão para Temperos",
-        "DESCRIPTION": "Porque manter a relação fresca é fundamental nos dias quentes!"
+        "DESCRIPTION": "Porque manter a relação fresca é fundamental nos dias quentes!",
+        "PRICE":"49,00"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {       
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444553/amz-08_yx1jdb.webp",
         "TITLE": "Conjunto de Copos",
-        "DESCRIPTION": "Onde jantares românticos e conversas profundas acontecem."
+        "DESCRIPTION": "Onde jantares românticos e conversas profundas acontecem.",
+        "PRICE":"59,00"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444545/amz-02_uqqudn.webp",
         "TITLE": "Jogo de Xícaras",
-        "DESCRIPTION": "Ilumina o caminho para muitas luas de mel futuras."
+        "DESCRIPTION": "Ilumina o caminho para muitas luas de mel futuras.",
+        "PRICE":"95,92"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444544/amz-01_q0stv8.webp",
         "TITLE": "Vaporeira de Bambu",
-        "DESCRIPTION": "Leve como o amor, mas poderoso o suficiente para limpar qualquer bagunça."
+        "DESCRIPTION": "Leve como o amor, mas poderoso o suficiente para limpar qualquer bagunça.",
+        "PRICE":"39,92"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444550/amz-05_qqgkcu.webp",
         "TITLE": "Faqueiro 36 Peças",
-        "DESCRIPTION": "Para misturar ingredientes e sentimentos em cada receita."
+        "DESCRIPTION": "Para misturar ingredientes e sentimentos em cada receita.",
+        "PRICE":"62,92"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444548/amz-04_usuruk.webp",
         "TITLE": "Multiprocessador Philco",
-        "DESCRIPTION": "Ideal para manter não só a casa, mas também a relação, sem manchas."
+        "DESCRIPTION": "Ideal para manter não só a casa, mas também a relação, sem manchas.",
+        "PRICE":"99,92"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444551/amz-07_swdt4j.webp",
         "TITLE": "Aparelho de Jantar 20pcs",
-        "DESCRIPTION": "Para preparar juntos todas as refeições e fortalecer a união."
+        "DESCRIPTION": "Para preparar juntos todas as refeições e fortalecer a união.",
+        "PRICE":"75,92"
       },
-      {
-        "LINK": "https://www.amazon.com.br/hz/wishlist/ls/3Q8YYWX6OV1C1?ref_=wl_share",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444547/amz-03_ejhc4b.webp",
         "TITLE": "Jogo de Panelas 10pcs",
-        "DESCRIPTION": "Onde cada garfo e faca trabalham em perfeita harmonia."
+        "DESCRIPTION": "Onde cada garfo e faca trabalham em perfeita harmonia.",
+        "PRICE":"45,92"
       }
     ]
   }
