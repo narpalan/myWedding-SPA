@@ -34,7 +34,7 @@ const Form = (): React.JSX.Element => {
                             <CustomInput key={index} name={field} />                            
                         ))}
                     </div>
-                    <button className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem] my-6" type='submit'>
+                    <button aria-label='Confirmar cadastro de presença' className="text-center rounded-3xl bg-mossGreen w-[16.31rem] h-[3.06rem] my-6" type='submit'>
                         <p>Cadastrar!</p>
                     </button>
                 </form>
