@@ -15,10 +15,10 @@ export default function Home() {
       <Wrapper>
           <div className='flex flex-col h-[160vh] gap-y-20 lg:gap-x-30 lg:flex-row md:max-lg:items-center lg:justify-around my-5 mx-5 py-5 lg:my-16 lg:mx-20 lg:h-[95vh]'>              
               <Image
-                src='/bg-candle-test.avif'
+                src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728875048/foto-casal-2-festa-junina_j2uykc.webp'
                 width={470}
                 height={20}
-                alt='Our photo wearing white robes!'                
+                alt='Our full body photo wearing a Festa Junina costume. Shes dressed like a bride with a white dress and me with a plaid shirt, a patched blue jeans and a straw hat.'                
               />
               <div className='flex flex-col md:w-[35rem] lg:w-[41rem] lg:h-[80vh]'>               
                 <span className='text-justify'>
