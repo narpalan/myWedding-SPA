@@ -9,6 +9,7 @@ const Divider = ({ text, id, hideMe }: { text?: string, id?: string, hideMe?: st
                 width={100}
                 height={200}                
                 className='skew-y-12 lg:w-[150px] lg:h-[250px]'
+                loading='lazy'
             />
             <div>
                 <p className='text-md lg:text-3xl'>
@@ -21,6 +22,7 @@ const Divider = ({ text, id, hideMe }: { text?: string, id?: string, hideMe?: st
                 width={100}
                 height={200}                
                 className='scale-x-[-1] skew-y-6 lg:w-[150px] lg:h-[250px]'
+                loading='lazy'
             />
         </div>
     );
