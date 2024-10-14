@@ -1,59 +1,59 @@
 {
     "title": "LAR",
     "items": [
-      {
-        "LINK": "https://amazon.com.br/toaster-pro-max-1",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444535/pix-produto-1_v9ffvb.webp",
         "TITLE": "Torradeira Pro Max Casamento Edition",
-        "DESCRIPTION": "A torradeira que não só faz torradas, mas também esquenta o coração dos recém-casados."
+        "DESCRIPTION": "A torradeira que não só faz torradas, mas também esquenta o coração dos recém-casados.",
+        "PRICE": "45,92"
       },
-      {
-        "LINK": "https://mercadolivre.com.br/robot-vacuum-love-2",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444536/pix-produto-2_hbycfs.webp",
         "TITLE": "Robô Aspirador Love Clean 3000",
-        "DESCRIPTION": "Porque o verdadeiro amor é quando ninguém precisa varrer a casa."
+        "DESCRIPTION": "Porque o verdadeiro amor é quando ninguém precisa varrer a casa.",
+        "PRICE":"85,92"
       },
-      {
-        "LINK": "https://shopee.com.br/kit-grill-duplo-3",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444537/pix-produto-3_wooi8d.webp",
         "TITLE": "Grill Duplo Romântico",
-        "DESCRIPTION": "Ideal para aquele churrasco a dois, sem brigar pelo último pedaço."
+        "DESCRIPTION": "Ideal para aquele churrasco a dois, sem brigar pelo último pedaço.",
+        "PRICE": "39,92"
       },
-      {
-        "LINK": "https://amazon.com.br/microondas-speed-4",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444538/pix-produto-4_y8anmp.webp",
         "TITLE": "Micro-ondas Turbo Relacionamento",
-        "DESCRIPTION": "Para esquentar o jantar e não as discussões!"
+        "DESCRIPTION": "Para esquentar o jantar e não as discussões!",
+        "PRICE":"95,92"
       },
-      {
-        "LINK": "https://mercadolivre.com.br/cafeteira-amor-forte-5",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444539/pix-produto-5_o6nd21.webp",
         "TITLE": "Cafeteira Amor Forte",
-        "DESCRIPTION": "Para começar o dia com aquele café que mantém o amor forte!"
+        "DESCRIPTION": "Para começar o dia com aquele café que mantém o amor forte!",
+        "PRICE":"39,92"
       },
-      {
-        "LINK": "https://shopee.com.br/airfryer-dois-coracoes-6",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444540/pix-produto-6_gwssc0.webp",
         "TITLE": "Air Fryer Dois Corações",
-        "DESCRIPTION": "Perfeita para preparar lanches saudáveis e fritar brigas antes que comecem."
+        "DESCRIPTION": "Perfeita para preparar lanches saudáveis e fritar brigas antes que comecem.",
+        "PRICE":"62,92"
       },
-      {
-        "LINK": "https://amazon.com.br/sofa-maratonar-juntos-7",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444540/pix-produto-7_jsuuwu.webp",
         "TITLE": "Sofá Maratonar Juntos",
-        "DESCRIPTION": "O sofá feito para maratonar séries e construir memórias (e cochilos)."
+        "DESCRIPTION": "O sofá feito para maratonar séries e construir memórias (e cochilos).",
+        "PRICE":"99,92"
       },
-      {
-        "LINK": "https://mercadolivre.com.br/panela-pressao-compromisso-8",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444542/pix-produto-8_b4riqi.webp",
         "TITLE": "Panela de Pressão Compromisso",
-        "DESCRIPTION": "Ideal para cozinhar refeições rápidas e segurar as pressões do casamento."
+        "DESCRIPTION": "Ideal para cozinhar refeições rápidas e segurar as pressões do casamento.",
+        "PRICE":"75,92"
       },
-      {
-        "LINK": "https://shopee.com.br/jogo-cama-eterna-conexao-9",
+      {        
         "IMG_SRC": "https://res.cloudinary.com/dnww83mmv/image/upload/v1728444543/pix-produto-9_qrsjjs.webp",
         "TITLE": "Jogo de Cama Conexão Eterna",
-        "DESCRIPTION": "Porque noites confortáveis são o segredo de uma conexão duradoura."
+        "DESCRIPTION": "Porque noites confortáveis são o segredo de uma conexão duradoura.",
+        "PRICE":"45,92"
       }
     ]
   }

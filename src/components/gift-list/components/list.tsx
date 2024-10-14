@@ -37,7 +37,7 @@ export default function List({ className, section, id }: { className?: string, s
                     src={gift.IMG_SRC}
                     title={gift.TITLE}
                     description={gift.DESCRIPTION}
-                    link={gift.LINK}
+                    price={gift.PRICE}
                 />
             ))}
         </div>        
