@@ -7,7 +7,7 @@ export default function Hero(): React.JSX.Element {
                 src="https://res.cloudinary.com/dnww83mmv/image/upload/v1728875230/foto-casal01_1_q0kn58.webp"
                 priority                
                 fill             
-                alt="Background image with a lit candle."
+                alt="Image from HERO section portraying the couple in São Thomé - Minas Gerais."
                 className="object-cover"
             />                        
         </div>

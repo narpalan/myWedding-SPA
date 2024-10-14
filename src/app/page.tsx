@@ -18,7 +18,7 @@ export default function Home() {
                 src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728875048/foto-casal-2-festa-junina_j2uykc.webp'
                 width={470}
                 height={20}
-                alt='Our photo wearing white robes!'                
+                alt='Our full body photo wearing a Festa Junina costume. Shes dressed like a bride with a white dress and me with a plaid shirt, a patched blue jeans and a straw hat.'                
               />
               <div className='flex flex-col md:w-[35rem] lg:w-[41rem] lg:h-[80vh]'>               
                 <span className='text-justify'>
