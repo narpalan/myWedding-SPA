@@ -10,7 +10,7 @@ const Card = ({ src }: {src: string }): React.JSX.Element => {
             height={350}
             alt="Imagem vela aromática."
             aria-label="Imagem vela aromática."
-            loading="lazy"
+            loading='lazy'
         />
     </div>
     );

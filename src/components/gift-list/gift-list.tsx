@@ -27,6 +27,7 @@ export default function GiftList(): React.JSX.Element {
                         alt='Image for section Home from the gift list.'
                         fill
                         className='object-cover'
+                        loading='lazy'
                     /> 
                     </a>                       
                 </div>
@@ -47,7 +48,8 @@ export default function GiftList(): React.JSX.Element {
                         src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728866716/cozinha_l2ao3l.webp'
                         alt='Image for section Kitchen from the gift list.'
                         fill     
-                        className='object-cover'           
+                        className='object-cover' 
+                        loading='lazy'          
                     />
                     </a>
                 </div>
@@ -68,7 +70,8 @@ export default function GiftList(): React.JSX.Element {
                         src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728866715/ele_e_ela_mkwdgl.webp'
                         alt='Image for section she and he from the gift list.'
                         fill     
-                        className='object-cover'                  
+                        className='object-cover'  
+                        loading='lazy'                
                     />  
                     </a>          
                 </div> 
