@@ -55,7 +55,7 @@ const CeremonyMap = (): React.JSX.Element => {
             <div className='flex flex-col lg:flex-row gap-y-5 gap-x-16'>
             <button onClick={ () => copyToClipboard(ceremonyLocationAddress) } className='text-center rounded-3xl bg-mossGreen flex flex-row items-center justify-around w-[12.31rem] h-[3.06rem] lg:w-[14.31rem] lg:h-[2.75rem]'>
                 <Image
-                    src="/maps.webp"
+                    src="https://res.cloudinary.com/dnww83mmv/image/upload/v1728864586/maps_nowdl3.webp"
                     alt="Custom google Maps pointer icon."
                     width={20}
                     height={20}
@@ -66,7 +66,7 @@ const CeremonyMap = (): React.JSX.Element => {
             <a className='lg:hidden' href={uberDeepLink}>
                 <button className='text-center rounded-3xl bg-mossGreen flex flex-row items-center justify-around w-[12.31rem] h-[3.06rem] lg:w-[14.31rem] lg:h-[2.75rem]'>
                     <Image
-                        src="/uber.webp"
+                        src="https://res.cloudinary.com/dnww83mmv/image/upload/v1728864586/uber_aym2vr.webp"
                         alt="Uber logo."
                         width={32}
                         height={32}
