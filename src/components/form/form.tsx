@@ -25,11 +25,14 @@ const Form = (): React.JSX.Element => {
     };
     
     return (
-        <>            
+        <>      
+                             
             {submitted && !formError
                 ? <Msg />
-                : <form action={handleForm} className="flex flex-col mt-[1.31rem] items-center">
-                    <div className='flex flex-col lg:flex-row lg:gap-x-20 '>
+                : <form action={handleForm} className="flex flex-col mt-[1.31rem] text-justify items-center px-5">
+                    <p className='indent-8'>Para garantir a entrada, <span className='font-bold'>CADA CONVIDADO</span> deve preencher o formulário abaixo.</p>                    
+                    <p className='indent-8'>Ainda que o nome esteja na lista (cadastrado pelo formulário) é <span className='font-bold'>INDISPENSÁVEL</span> a apresentação do convite individual na entrada.</p>
+                    <div className='flex flex-col lg:flex-row lg:gap-x-20 pt-5'>
                         {formFields.map((field, index) => (                            
                             <CustomInput key={index} name={field} />                            
                         ))}
