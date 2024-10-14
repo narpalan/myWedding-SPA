@@ -13,7 +13,7 @@ export default function GiftList(): React.JSX.Element {
     return(
         <>
             <div className='flex flex-col gap-y-4 lg:flex-row lg:mx-28 lg:justify-between lg:my-16'>
-                <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[400px] ${isOpenA? 'border-4 border-purple-800': ''}`}>
+                <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[400px] overflow-hidden rounded-2xl ${isOpenA? 'border-4 border-purple-800': 'border-4 border-mossGreen'}`}>
                     <a 
                         href='#gifts-header-title'
                         onClick={() => {
@@ -34,7 +34,7 @@ export default function GiftList(): React.JSX.Element {
                     <Divider hideMe='lg:hidden flex' id='gifts-header-title' text={headerTitle} />
                 ))} 
                 <List id='SM-A' className={`${isOpenA ? 'block': 'hidden'} lg:hidden`} section='A'/>                            
-                <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[400px] ${isOpenB? 'border-4 border-purple-800': ''}`}>
+                <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[400px] overflow-hidden rounded-2xl ${isOpenB? 'border-4 border-purple-800': 'border-4 border-mossGreen'}`}>
                 <a 
                     href='#gifts-header-title'
                     onClick={() => {
@@ -55,7 +55,7 @@ export default function GiftList(): React.JSX.Element {
                     <Divider hideMe='lg:hidden flex' id='gifts-header-title' text={headerTitle} />
                 ))} 
                 <List id='SM-B' className={`${isOpenB ? 'block': 'hidden'} lg:hidden mt-16`} section='B'/>
-                <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[400px] ${isOpenC? 'border-4 border-purple-800': ''}`}>
+                <div className={`w-full relative h-[189px] lg:w-[300px] md:h-[275px] lg:h-[400px] overflow-hidden rounded-2xl ${isOpenC? 'border-4 border-purple-800': 'border-4 border-mossGreen'}`}>
                 <a 
                     href='#gifts-header-title'
                     onClick={() => {
