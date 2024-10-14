@@ -13,7 +13,7 @@ export default function Home() {
       <Hero/>      
       <Divider id='couple' text="O Casal"/>  
       <Wrapper>
-          <div className='flex flex-col h-[160vh] gap-y-20 lg:gap-x-30 lg:flex-row md:max-lg:items-center lg:justify-around my-5 mx-5 py-5 lg:my-16 lg:mx-20 lg:h-[95vh]'>              
+          <div className='flex flex-col h-[1715px] gap-y-20 lg:gap-x-30 lg:flex-row md:max-lg:items-center lg:justify-around my-5 mx-5 py-5 lg:my-16 lg:mx-20 lg:h-[55rem]'>              
               <Image
                 src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728875048/foto-casal-2-festa-junina_j2uykc.webp'
                 width={470}
@@ -33,7 +33,7 @@ export default function Home() {
               </div>            
           </div>
       </Wrapper>
-      <Wrapper className='bg-violet-200 mt-[45rem] lg:mt-36'>
+      <Wrapper className='bg-violet-200 mt-[125px] lg:mt-36'>
         <div className='flex flex-col gap-y-5 lg:flex-row lg:justify-around items-center text-black p-5'>
           <span>Confirme sua presença até 30/10/2024</span>
           <a href='#rsvp'>
