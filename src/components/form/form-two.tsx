@@ -30,7 +30,7 @@ const FormTwo = (): React.JSX.Element => {
             setFieldErrors({
                 fullName: 'Nome já cadastrado.'
             });
-        } else {
+        } else if (res.message != null) {
             setFormError(true);
         }
         setSubmitted(true);
