@@ -8,6 +8,16 @@ const NewRSVPSchema = z.object({
     mobile: z.string(),
 });
 
+const getRSVP = async (fullName: string) => {
+    const user = await db.rsvp.findFirst({
+        where: {
+            fullName: fullName,
+        },
+    });
+
+    return user;        
+};
+
 export const setNewRSVP = async (rawData: FormData) => {
     const data = NewRSVPSchema.parse({
         fullName: rawData.get('fullName'),
@@ -16,6 +26,10 @@ export const setNewRSVP = async (rawData: FormData) => {
 
     if(data.fullName === '' || data.mobile === '') {
         throw new Error('em branco');        
+    }
+
+    if (await getRSVP(data.fullName)) {
+        throw new Error('Convidado/Acompanhante já cadastrado');
     }
 
     await db.rsvp.create({ data });    
