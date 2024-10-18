@@ -15,26 +15,26 @@ const FormTwo = (): React.JSX.Element => {
 
     const handleForm = async (formData: FormData) => {
         setFormError(false);
-        setFieldErrors({}); // Reset field errors before a new submission
+        setFieldErrors({});
+        
+        const res = await setNewRSVP(formData);
 
-        try {
-            await setNewRSVP(formData);
-        } catch (er: any) {
-            if (er.message === 'em branco') {
-                setFieldErrors({
-                    fullName: 'Nome completo é obrigatório.',
-                    mobile: 'Número de celular é obrigatório.'
-                });
-            } else if (er.message === 'Convidado/Acompanhante já cadastrado') {
-                setFieldErrors({
-                    fullName: 'Convidado já cadastrado.'
-                });
-            } else {
-                setFormError(true);
-            }
-            return;
-        }        
+        if (res.message === 'em branco') {            
+            setFormError(true);
+            setFieldErrors({
+                fullName: 'Nome completo é obrigatório.',
+                mobile: 'Número de celular é obrigatório.'                
+            });
+        } else if (res.message === 'Convidado/Acompanhante já cadastrado') {            
+            setFormError(true);
+            setFieldErrors({
+                fullName: 'Nome já cadastrado.'
+            });
+        } else {
+            setFormError(true);
+        }
         setSubmitted(true);
+        return;       
     };
     
     return (

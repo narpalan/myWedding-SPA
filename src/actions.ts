@@ -24,13 +24,14 @@ export const setNewRSVP = async (rawData: FormData) => {
         mobile: rawData.get('mobile'),
     });
 
-    if(data.fullName === '' || data.mobile === '') {
-        throw new Error('em branco');        
+    if(data.fullName == '' || data.mobile == '' || !data.fullName || !data.mobile) {
+        return { message: 'em branco' };        
     }
 
     if (await getRSVP(data.fullName)) {
-        throw new Error('Convidado/Acompanhante já cadastrado');
+        return { message: 'Convidado/Acompanhante já cadastrado' };           
     }
 
-    await db.rsvp.create({ data });    
+    await db.rsvp.create({ data }); 
+    return {};   
 }
