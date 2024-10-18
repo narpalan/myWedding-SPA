@@ -24,7 +24,7 @@ export const setNewRSVP = async (rawData: FormData) => {
         mobile: rawData.get('mobile'),
     });
 
-    if(data.fullName === '' || data.mobile === '') {
+    if(data.fullName === '' || data.mobile === '' || !data.fullName || !data.mobile) {
         throw new Error('em branco');        
     }
 
