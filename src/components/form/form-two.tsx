@@ -18,14 +18,17 @@ const FormTwo = (): React.JSX.Element => {
         setFieldErrors({}); // Reset field errors before a new submission
 
         try {
+            console.log('oi');
             await setNewRSVP(formData);
         } catch (er: any) {
             if (er.message === 'em branco') {
+                console.log('em branco');
                 setFieldErrors({
                     fullName: 'Nome completo é obrigatório.',
                     mobile: 'Número de celular é obrigatório.'
                 });
             } else if (er.message === 'Convidado/Acompanhante já cadastrado') {
+                console.log('já cadastrado');
                 setFieldErrors({
                     fullName: 'Convidado já cadastrado.'
                 });
