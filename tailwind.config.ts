@@ -10,6 +10,9 @@ const config: Config = {
     colors: { 
       'mossGreen': '#9FB063',
       'white':'#ffffff',
+      'red': {
+        500: '#EF4444',
+      },
       'purple': {
         600: '#A855F7',
         800: '#7E22CE',

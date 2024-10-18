@@ -5,6 +5,7 @@ import Divider from '@/components/divider/divider';
 import Image from 'next/image';
 import CeremonyMap from '@/components/ceremony-map/ceremony-map';
 import Form from '@/components/form/form';
+import FormTwo from '@/components/form/form-two';
 import GiftList from '@/components/gift-list/gift-list';
 
 export default function Home() {
@@ -58,7 +59,8 @@ export default function Home() {
       </Wrapper>
       <Divider id="rsvp" text='Confirmar Presença'/>      
       <Wrapper>
-        <Form />
+        {/* <Form />*/}
+        <FormTwo/>
       </Wrapper>
                 
     </>
