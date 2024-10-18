@@ -40,8 +40,8 @@ const CeremonyMap = (): React.JSX.Element => {
         <div className='my-5 mx-6 px-10 lg:mx-40 flex flex-col items-center'>
             <span className='text-justify'>                
                 <p className='indent-8'>Contamos com a sua presença na celebração da nossa união!</p>
-                <p className='indent-8 font-bold'>A cerimônia está prevista para começar às <span className=''>17:30 do dia 09/11/2024</span> e, logo em seguida, iniciaremos a festa, que será no mesmo local.</p>                 
-                <p className='indent-8 font-bold'>Para garantir sua entrada, é necessário que seu nome esteja na lista, então não se esqueça de confirmar sua presença nesse formulário abaixo!!</p>
+                <p className='indent-8 font-bold'>A cerimônia está prevista para começar às <span className=''>17:30 do dia 09/11/2024</span> e, logo em seguida, iniciaremos a festa no mesmo local.</p>                 
+                <p className='indent-8 font-bold'>Para garantir sua entrada, é necessário que seu nome esteja na lista, então não se esqueça de confirmar sua presença no formulário!!</p>
                 <p className='indent-8'>Confira o mapa abaixo e a foto da fachada do sítio para não errar o local!</p>                                
             </span>
             
