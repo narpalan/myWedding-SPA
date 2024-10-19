@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎉 Wedding RSVP Landing Page
 
-## Getting Started
+## 📝 Descrição
 
-First, run the development server:
+Um projeto web com interface simples e elegante para captar a confirmação de presença (RSVP) e exibir informações importantes sobre o evento (no caso, um casamento), incluindo:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Navegação facilitada**: Menu de navegação com âncoras para acessar rapidamente as diferentes seções do site.
+- **Informações do casal**: Seção com fotos e uma breve história do casal.
+- **Padrinhos e madrinhas**: Carrossel de fotos destacando os padrinhos e madrinhas.
+- **Local do evento**: Imagem da fachada e um mapa para o local da cerimônia.
+- **Lista de presentes**: Três seções, cada uma com até 9 itens, incluindo imagem, descrição e valor sugerido. Cada card oferece uma chave Pix para doações rápidas.
+- **RSVP**: Formulário processado server-side usando as actions do Next.js, permitindo que os convidados confirmem presença.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Learn More
+- [Next.js](https://nextjs.org) (v. 14.2.5)
+- [TailwindCSS](https://tailwindcss.com) para estilização.
+- [Zod](https://zod.dev) para validação de dados.
+- [Prisma](https://www.prisma.io) para interação com o banco de dados.
+- [Chadcn](https://chadcn.dev) para componentes gráficos.
+- [TypeScript](https://www.typescriptlang.org) para tipagem estática.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Como Usar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Siga os passos abaixo para instalar e rodar o projeto localmente:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+0. Caso não tenha, instale o [Node.js](https://nodejs.org) em uma versão >=14.x
 
-## Deploy on Vercel
+1. Clone o repositório:  
+   `git clone https://github.com/seu-usuario/wedding-rsvp-site-nextjs.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Instale as dependências:  
+   `npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Execute o projeto:  
+   `npm run dev`
+
+4. Acesse o projeto no navegador:  
+   `http://localhost:3000`  
+
+
+> Certifique-se de ter o [Node.js](https://nodejs.org) instalado.
+
+## 🎯 Motivação
+
+O projeto foi criado para atender a uma necessidade pessoal, já que as opções disponíveis no mercado não ofereciam a flexibilidade e personalização desejadas. Além disso, foi uma oportunidade para testar e aprofundar os conhecimentos em **Next.js**, focando em performance e SEO. 
+
+## 📈 Futuras Funcionalidades
+
+- **Painel administrativo** para customização do site sem a necessidade de alterar o código manualmente.
+
+## 📜 Licença
+
+Licença a definir.
