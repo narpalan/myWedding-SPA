@@ -36,7 +36,7 @@ export default function Home() {
       </Wrapper>
       <Wrapper className='bg-violet-200 mt-[125px] lg:mt-36'>
         <div className='flex flex-col gap-y-5 lg:flex-row lg:justify-around items-center text-black p-5'>
-          <span>Confirme sua presença até 30/10/2024</span>
+          <span>Confirme sua presença até 04/11/2024</span>
           <a href='#rsvp'>
             <button className="text-center rounded-3xl bg-mossGreen w-[12.31rem] h-[2.06rem] lg:w-[16.31rem] lg:h-[2.75rem]" type='submit'>
               <p>Confirmar Presença</p>
