@@ -20,7 +20,7 @@ export default function GiftList(): React.JSX.Element {
                             setIsOpenA(!isOpenA);
                             setIsOpenB(false);
                             setIsOpenC(false);
-                            setHeaderTitle(isOpenA ? 'Lista de Presentes' : 'Presentes da Seção A');
+                            setHeaderTitle(isOpenA ? 'Lista de Presentes' : 'Presentes para o Lar');
                     }}>
                     <Image
                         src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728866716/lar_a0kx4u.webp'
@@ -42,7 +42,7 @@ export default function GiftList(): React.JSX.Element {
                         setIsOpenB(!isOpenB);
                         setIsOpenA(false);
                         setIsOpenC(false);
-                        setHeaderTitle(isOpenB ? 'Lista de Presentes' : 'Presentes da Seção B');
+                        setHeaderTitle(isOpenB ? 'Lista de Presentes' : 'Presentes para a Cozinha');
                     }}>
                     <Image
                         src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728866716/cozinha_l2ao3l.webp'
@@ -64,7 +64,7 @@ export default function GiftList(): React.JSX.Element {
                         setIsOpenC(!isOpenC);
                         setIsOpenA(false);
                         setIsOpenB(false);
-                        setHeaderTitle(isOpenC ? 'Lista de Presentes' : 'Presentes da Seção C');
+                        setHeaderTitle(isOpenC ? 'Lista de Presentes' : 'Presentes para o Casal');
                     }}>
                     <Image
                         src='https://res.cloudinary.com/dnww83mmv/image/upload/v1728866715/ele_e_ela_mkwdgl.webp'
